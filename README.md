@@ -19,9 +19,13 @@ This Dockerfile assumes that the HTML and JavaScript files for the website are l
 # 4: Copy the following code into the Dockerfile:
 
 FROM nginx:latest
+
 COPY . /usr/share/nginx/html
+
 EXPOSE 80
+
 CMD ["nginx", "-g", "daemon off;"]
+
 
 # 5: Save the Dockerfile and exit the text editor.
 
