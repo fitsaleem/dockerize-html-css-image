@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none
+  }
